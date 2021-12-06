@@ -1,0 +1,81 @@
+/*font-family: 'Cinzel', serif;
+font-family: 'Londrina Shadow', cursive;*/
+
+/* Styleshet for the Full Screen
+	Landing Page  project 11/23/2021 */
+
+
+html, body {
+	margin: 0;
+	padding:  0;
+	width: 100%;
+	height: 100%;
+
+
+}
+
+body {
+	background-color: #000000;
+}
+
+section#intro {
+	background-image: url("background.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+div#content {
+	display: table-cell;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div#content h1 {
+	font-family: 'Cinzel', serif;
+	font-size: 500%;
+	color: #FFFFFF;
+	letter-spacing: 5px;
+	text-shadow:  2px 0px 10px #66CDAA;
+	margin-bottom: 45px;
+}
+
+p {
+	font-family: 'Cinzel', serif;
+	color: #FFFFFF;
+	text-align: justify;
+	margin:  10px;
+}
+
+a#btn {
+	text-decoration: none;
+	background-color: #66CDAA;
+	color: black;
+	font-size: 200%;
+	padding: 10px 20px;
+	border-radius: 15px;
+	border: solid #DCDCDC 3px;
+	transition: all 1s;
+	opacity: .6;
+}
+
+a#btn:hover {
+	color: wheat;
+	border: solid #006400 3px;
+
+}
+
+/* Media Query Styling */
+@media screen and (max-width: 768px) {
+	div#content h1 {
+		font-size: 250%;
+
+	}
+
+	a#btn {
+		font-size: 100%;
+	}
+} /*end of media query*/
